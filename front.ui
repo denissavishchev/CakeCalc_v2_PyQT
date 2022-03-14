@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>340</width>
+    <height>642</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>340</width>
+      <height>620</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	border-radius: 10;
+	background-image: url(:/newPrefix/bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="circle_top">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border-radius: 15;
+	background-color: rgba(17,52,82,.8);
+	border: 10px solid rgba(17,52,82,.5);
+}
+
+QPushButton:pressed{
+	background-color: rgba(17,52,82,.9);
+	border: 1px solid rgba(255,255,255,.5);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/circle.png</normaloff>img/circle.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>100</width>
+       <height>100</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="square_top">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>70</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border-radius: 15;
+	background-color: rgba(17,52,82,.8);
+	border: 10px solid rgba(17,52,82,.5);
+}
+
+QPushButton:pressed{
+	background-color: rgba(17,52,82,.9);
+	border: 1px solid rgba(255,255,255,.5);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/square.png</normaloff>img/square.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="rect_top">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>70</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border-radius: 15;
+	background-color: rgba(17,52,82,.8);
+	border: 10px solid rgba(17,52,82,.5);
+}
+
+QPushButton:pressed{
+	background-color: rgba(17,52,82,.9);
+	border: 1px solid rgba(255,255,255,.5);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/rect.png</normaloff>img/rect.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>85</width>
+       <height>85</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="circle_bottom">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>300</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border-radius: 15;
+	background-color: rgba(17,52,82,.8);
+	border: 10px solid rgba(17,52,82,.5);
+}
+
+QPushButton:pressed{
+	background-color: rgba(17,52,82,.9);
+	border: 1px solid rgba(255,255,255,.5);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/circle.png</normaloff>img/circle.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>100</width>
+       <height>100</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="square_bottom">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>300</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border-radius: 15;
+	background-color: rgba(17,52,82,.8);
+	border: 10px solid rgba(17,52,82,.5);
+}
+
+QPushButton:pressed{
+	background-color: rgba(17,52,82,.9);
+	border: 1px solid rgba(255,255,255,.5);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/square.png</normaloff>img/square.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="rect_bottom">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>300</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border-radius: 15;
+	background-color: rgba(17,52,82,.8);
+	border: 10px solid rgba(17,52,82,.5);
+}
+
+QPushButton:pressed{
+	background-color: rgba(17,52,82,.9);
+	border: 1px solid rgba(255,255,255,.5);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>img/rect.png</normaloff>img/rect.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>85</width>
+       <height>85</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputLT">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>220</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	background-color: rgba(17,52,82,.8);
+	color: rgba(255,255,255,1);
+	border-radius: 10;
+	border: 5px solid rgba(17,52,82,.5);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Diameter</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputRT">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>220</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	background-color: rgba(17,52,82,.8);
+	color: rgba(255,255,255,1);
+	border-radius: 10;
+	border: 5px solid rgba(17,52,82,.5);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Diameter</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputLD">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>450</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	background-color: rgba(17,52,82,.8);
+	color: rgba(255,255,255,1);
+	border-radius: 10;
+	border: 5px solid rgba(17,52,82,.5);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Diameter</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inputRD">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>450</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	background-color: rgba(17,52,82,.8);
+	color: rgba(255,255,255,1);
+	border-radius: 10;
+	border: 5px solid rgba(17,52,82,.5);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Diameter</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="result">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>520</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Tahoma</family>
+       <pointsize>24</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border-radius: 15;
+	background-color: rgba(17,52,82,.8);
+	border: 10px solid rgba(17,52,82,.5);
+	color: rgba(255,255,255,1);
+}
+
+QPushButton:pressed{
+	background-color: rgba(17,52,82,.9);
+	border: 1px solid rgba(255,255,255,.5);
+	color: rgba(255,255,255,.5);
+}</string>
+     </property>
+     <property name="text">
+      <string>Result</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="img/bg.qrc"/>
+ </resources>
+ <connections/>
+</ui>
