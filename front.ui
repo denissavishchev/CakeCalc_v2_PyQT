@@ -159,7 +159,7 @@ QPushButton:pressed{
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>300</y>
+       <y>260</y>
        <width>100</width>
        <height>100</height>
       </rect>
@@ -194,7 +194,7 @@ QPushButton:pressed{
      <property name="geometry">
       <rect>
        <x>120</x>
-       <y>300</y>
+       <y>260</y>
        <width>100</width>
        <height>100</height>
       </rect>
@@ -229,7 +229,7 @@ QPushButton:pressed{
      <property name="geometry">
       <rect>
        <x>230</x>
-       <y>300</y>
+       <y>260</y>
        <width>100</width>
        <height>100</height>
       </rect>
@@ -264,7 +264,7 @@ QPushButton:pressed{
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>220</y>
+       <y>200</y>
        <width>151</width>
        <height>31</height>
       </rect>
@@ -295,7 +295,7 @@ QPushButton:pressed{
      <property name="geometry">
       <rect>
        <x>180</x>
-       <y>220</y>
+       <y>200</y>
        <width>151</width>
        <height>31</height>
       </rect>
@@ -326,7 +326,7 @@ QPushButton:pressed{
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>450</y>
+       <y>390</y>
        <width>151</width>
        <height>31</height>
       </rect>
@@ -357,7 +357,7 @@ QPushButton:pressed{
      <property name="geometry">
       <rect>
        <x>180</x>
-       <y>450</y>
+       <y>390</y>
        <width>151</width>
        <height>31</height>
       </rect>
@@ -388,7 +388,7 @@ QPushButton:pressed{
      <property name="geometry">
       <rect>
        <x>70</x>
-       <y>520</y>
+       <y>460</y>
        <width>200</width>
        <height>60</height>
       </rect>
@@ -421,6 +421,58 @@ QPushButton:pressed{
        <width>80</width>
        <height>80</height>
       </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="nameLabel">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>301</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Italianno</family>
+       <pointsize>64</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+color: rgba(255,255,255,1);</string>
+     </property>
+     <property name="text">
+      <string>Smolikova Cakes</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="nameLabel_2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>540</y>
+       <width>150</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Italianno</family>
+       <pointsize>64</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+color: rgba(255,255,255,1);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
      </property>
     </widget>
    </widget>
